@@ -1,0 +1,120 @@
+@charset "UTF-8";
+@import url('https://fonts.cdnfonts.com/css/work-sans?styles=18609,18605');
+$boleto-simples-default-blue: #3399CC;
+$white: #fff;
+$black: #000;
+$dark-alpha-black: rgba(0,
+0,
+0,
+.7);
+$light-alpha-black: rgba(0,
+0,
+0,
+.05);
+$gray: #ECF0F1;
+$medium-gray: #777;
+$dark_gray: #E5E8E9;
+$dark-gray: $dark_gray;
+$bluewood: #2C3E50;
+$blue: #008de4;
+$dark_blue: #2d87c3;
+$dark-blue: $dark_blue;
+$darkest-blue: #424766;
+$main_green: #729e37;
+$main-green: $main_green;
+$orange: #ff9000;
+$ocean: #2BD9B5;
+$bright-orange:#FF5F26;
+$red: #f00;
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif !important;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    background-color: #fff;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+// Headings
+h1 {
+    margin: 0;
+    padding: 0.2em 0 0.2em 0;
+    color: #0baca9;
+    font-weight: 700;
+    @media (max-width: 800px) {
+        font-size: 1.5em;
+        margin: 3em 0 0;
+    }
+}
+
+.App {
+    display: flex;
+    width: 100%;
+}
+
+.controls {
+    padding: 1em;
+    width: 300px;
+    height: 500px;
+    background: #000;
+    float: left;
+}
+
+.result {
+    padding: 1em;
+}
+
+// Forms
+input,
+select,
+textarea {
+    border: 1px solid #fff;
+    background: none;
+    border-radius: 5px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 1em;
+    font-weight: 100;
+    outline: 0;
+    padding: 0.5em;
+    min-width: 14em;
+    color: #fff;
+    @media (max-width: 800px) {
+        width: 100%;
+        max-width: 100%;
+        font-size: 1.2em;
+    }
+}
+
+.single-input {
+    font-weight: 100;
+    margin-bottom: 1em;
+    position: relative;
+    label {
+        font-size: 1.5em;
+        font-weight: 200;
+        line-height: 45px;
+    }
+    .radiobutton {
+        font-size: 1em;
+        line-height: 2em;
+        margin-bottom: 1em;
+    }
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    border: 1px solid #fff;
+}
