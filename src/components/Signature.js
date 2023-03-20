@@ -311,11 +311,11 @@ const Signature = (props) => {
                                       }}
                                     >
                                       <a
-                                        href="https://www.viden.ventures"
+                                        href="https://www.viden.vc"
                                         color="#000000"
                                         style={{ color: "rgb(0, 0, 0)", fontSize: '12px' }}
                                       >
-                                        www.viden.ventures
+                                        www.viden.vc
                                       </a>
                                     </span>
                                   </td>
